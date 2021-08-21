@@ -10,8 +10,7 @@ pygame.init()
 pygame.display.set_caption("Brick Game!")
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
-pos_x = 200
-pos_y = SCREEN_HEIGHT - 50
+pos_x, pos_y = 200, SCREEN_HEIGHT - 50
 move_x = 20
 
 white = (255, 255, 255) # rgb

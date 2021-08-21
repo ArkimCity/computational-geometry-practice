@@ -17,7 +17,7 @@ white = (255, 255, 255) # rgb
 black = (0, 0, 0)
 
 clock = pygame.time.Clock()
-user_bar = bar(screen, white, 10, 50)
+# user_bar = bar(screen, white, 10, 50)
 
 ## actual running loop
 while True:
